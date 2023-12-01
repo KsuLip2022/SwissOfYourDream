@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+    <html lang="en">
+<head>
+        <meta charset="utf-8">
+        <title>Swiss of your dream</title>
+
+        <meta name="author" content="Ksenia Dubrovskaya">
+        <meta name="description" content="Special Project for HTML Swiss of your dream">
+
+        <!-- Favicon Code -->
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+        <!-- Google Fonts Links -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Oswald:wght@500&family=Seymour+One&family=Vollkorn:ital@1&display=swap" rel="stylesheet">
+
+        <!-- Custom Stylesheet Link -->
+        <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<header>
+    <h1><a href="index.html">Swiss of your dream</a></h1> 
+                <!-- *the name of your resort* (you will choose a name for your resort that you will use on your pages) -->
+    
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#accomodations">Accommodations</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+                <!-- Home (index page)
+                Accommodations (placeholder link, you will not develop this page)
+                Contact (contact page) -->
+                <img src="images/swiss-valley.jpg" alt="swiss-valley" width="1440" height="560">
+    
+            <!-- image:
+                Use the image called "swiss-valley" as your hero image (be sure to write appropriate/descriptive alt text as needed) -->
+</header>
+
+<main>
+
+    <section id="contact">
+
+        <h2>Contact Us</h2>
+                    <!-- Contact Us -->
+
+            <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!</p>
+        
+                    <!-- image: 
+                    use the image called swiss-sunset (be sure to write appropriate/descriptive alt text as needed) -->
+
+            <img src="images/swiss-sunset.jpg" alt="Swiss sunset" width="710" height="270">
+
+            <p class="asterisk">Required fields marked with a *</p>
+
+            <section id="form">
+
+                <form action="https://wp.zybooks.com/form-viewer.php" method="GET" target="_blank">
+                <div class="fieldset">
+                    <fieldset>
+                        <legend>Preferred Method of Contact<span class="required">*</span></legend>
+                        <input type="radio" name="contact-pref" id="pref-email" checked>
+                        <label for="pref-email">Email</label>
+                        <input type="radio" name="contact-pref" id="pref-phone">
+                        <label for="pref-phone">Phone</label>
+                    </fieldset>
+                
+                    <label for="my-comments">Comments</label>
+                    <textarea name="my-comments" id="my-comments"></textarea>
+                   
+                    <input type="submit" name="my-submit" id="my-submit" value="Submit">
+                </div>
+                <div class="input">
+                    <label for="my-name">Name<span class="required">*</span></label>
+                    <input type="text" name="my-name" id="my-name" required>
+
+                    <label for="my-phone">Phone<span class="required">*</span></label>
+                    <input type="tel" name="my-phone" id="my-phone">
+                
+                    <label for="my-email">Email<span class="required">*</span></label>
+                    <input type="email" name="my-email" id="my-email" required>
+                </div>
+               
+                </form>
+                    <!-- form controls:
+                    full name 
+                        (control and label, required)
+                    email address 
+                        (control and label, required)
+                    phone number 
+                        (control and label, required)
+                    preferred contact method (making a choice from these options should be required)
+                    email 
+                        (control and label)
+                    phone  
+                        (control and label)
+                    comments
+                        (control and label, required)
+                    submit
+                        (control) -->
+        
+            </section>
+
+    </section>
+</main>
+
+<footer>
+    <p>Copyright ©2023 - Swiss of your dream</p>
+    <!-- text:
+        Copyright ©2023 - Swiss of your dream (you will choose a name for your resort that you will use on your pages)
+    text: 
+        This site is for educational purposes only -->
+<p>This site is for educational purposes only</p>
+</footer>
+
+</body>
+</html>
